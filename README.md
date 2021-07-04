@@ -4,3 +4,4 @@ each slider has a div of its own where i applied design using CSS, all sliders h
 i used js to show the values of each slider.
 CSS was used for the design and coloring.
 implemented the name attribute in html to use it with PHP where i connected my web page with the datebase created using mysql.
+as for the database, I made one table for the values of each slider, and a place that takes 0 or one for off and on
