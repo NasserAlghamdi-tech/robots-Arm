@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Arm_Style.css">
+</head>
+<body>
+
+<form id="seeThro" action="RobotArm.php" method="POST">
+
+    <div>
+        <h3>First shifter:</h3>
+        <input id="firstShifter" type="range" min="1" max="180" value="0" name="Slider1">
+        <span id="ValueOfAngle">0</span>
+        <script>
+         var Firstslider = document.getElementById("firstShifter");
+         var Firstoutput = document.getElementById("ValueOfAngle");
+         Firstoutput.innerHTML = Firstslider.value;
+        
+         Firstslider.oninput = function() {
+         Firstoutput.innerHTML = this.value;
+        }
+        </script>
+    </div>
+
+    <div>
+        <h3>Second shifter:</h3>
+        <input id="SecondShifter" type="range" min="1" max="180" value="0" name="Slider2">
+        <span id="ValueOfAngle2">0</span>
+        <script>
+         var secondSlider = document.getElementById("SecondShifter");
+         var secondOutput = document.getElementById("ValueOfAngle2");
+         secondOutput.innerHTML = secondSlider.value;
+        
+         secondSlider.oninput = function() {
+            secondOutput.innerHTML = this.value;
+        }
+        </script>
+    </div>
+
+    <div>
+        <h3>Third shifter:</h3>
+        <input id="ThirdShifter" type="range" min="1" max="180" value="0" name="Slider3">
+        <span id="ValueOfAngle3">0</span>
+        <script>
+         var ThirdSlider = document.getElementById("ThirdShifter");
+         var ThirdOutput = document.getElementById("ValueOfAngle3");
+         ThirdOutput.innerHTML = ThirdSlider.value;
+        
+         ThirdSlider.oninput = function() {
+            ThirdOutput.innerHTML = this.value;
+        }
+        </script>
+    </div>
+
+    <div>
+        <h3>Forth shifter:</h3>
+        <input id="ForthShifter" type="range" min="1" max="180" value="0" name="Slider4">
+        <span id="ValueOfAngle4">0</span>
+        <script>
+         var ForthSlider = document.getElementById("ForthShifter");
+         var ForthOutput = document.getElementById("ValueOfAngle4");
+         ForthOutput.innerHTML = ForthSlider.value;
+        
+         ForthSlider.oninput = function() {
+         ForthOutput.innerHTML = this.value;
+        }
+        </script>
+    </div>
+
+    <div>
+        <h3>Fifth shifter:</h3>
+        <input id="FifthShifter" type="range" min="1" max="180" value="0" name="Slider5">
+        <span id="ValueOfAngle5">0</span>
+        <script>
+         var FifthSlider = document.getElementById("FifthShifter");
+         var FifthOutput = document.getElementById("ValueOfAngle5");
+         FifthOutput.innerHTML = FifthSlider.value;
+        
+         FifthSlider.oninput = function() {
+         FifthOutput.innerHTML = this.value;
+        }
+        </script>
+    </div>
+
+    <div>
+        <h3>Sixth shifter:</h3>
+        <input id="SixthShifter" type="range" min="1" max="180" value="0" name="Slider6">
+        <span id="ValueOfAngle6">0</span>
+        <script>
+         var SixthSlider = document.getElementById("SixthShifter");
+         var SixthOutput = document.getElementById("ValueOfAngle6");
+         SixthOutput.innerHTML = SixthSlider.value;
+        
+         SixthSlider.oninput = function() {
+         SixthOutput.innerHTML = this.value;
+        }
+        </script>
+    </div>
+
+    <div>
+        <input type="submit" id="SaveButton" value="Save">
+        <button id="RunButton" value="run" onclick="ChangeRun()">Run</button>
+        <input type="text" value="0" name="RunKey" id="RunValue" hidden>
+        <script>
+            function ChangeRun() {
+            var runValue = document.getElementById("RunValue");
+            if(runValue = 0){
+                runValue.innerHTML = "1";
+            }else{
+                runValue.innerHTML = "0";
+            }}
+
+        </script>
+    </div>
+
+    
+</form>
+    
+</body>
+</html>

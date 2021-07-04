@@ -1,0 +1,185 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba(4, 205, 255, 0.719), hsl(209, 80%, 81%)) ;
+}
+
+#seeThro{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    border-radius: 2rem;
+    opacity: 70%;
+}
+
+#firstShifter{
+    width: 85%;
+    position: relative;
+    left: 0.5rem; 
+    border-radius: 2rem;
+    -webkit-appearance: none;
+    background: #000000;
+}
+
+#firstShifter::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 2rem;
+    background: #ffffff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  #ValueOfAngle{
+    position: relative;
+    left: 1rem;
+    bottom: 0.2rem;
+  }
+
+  #SecondShifter{
+    width: 85%;
+    position: relative;
+    left: 0.5rem; 
+    border-radius: 2rem;
+    -webkit-appearance: none;
+    background: #000000;
+}
+
+#SecondShifter::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 2rem;
+    background: #ffffff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  #ValueOfAngle2{
+    position: relative;
+    left: 1rem;
+    bottom: 0.2rem;
+  }
+
+  #ThirdShifter{
+    width: 85%;
+    position: relative;
+    left: 0.5rem; 
+    border-radius: 2rem;
+    -webkit-appearance: none;
+    background: #000000;
+}
+
+#ThirdShifter::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 2rem;
+    background: #ffffff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  #ValueOfAngle3{
+    position: relative;
+    left: 1rem;
+    bottom: 0.2rem;
+  }
+
+  #ForthShifter{
+    width: 85%;
+    position: relative;
+    left: 0.5rem; 
+    border-radius: 2rem;
+    -webkit-appearance: none;
+    background: #000000;
+}
+
+#ForthShifter::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 2rem;
+    background: #ffffff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  #ValueOfAngle4{
+    position: relative;
+    left: 1rem;
+    bottom: 0.2rem;
+  }
+
+  #FifthShifter{
+    width: 85%;
+    position: relative;
+    left: 0.5rem; 
+    border-radius: 2rem;
+    -webkit-appearance: none;
+    background: #030303;
+}
+
+#FifthShifter::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 2rem;
+    background: #ffffff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  #ValueOfAngle5{
+    position: relative;
+    left: 1rem;
+    bottom: 0.2rem;
+  }
+
+  #SixthShifter{
+    width: 85%;
+    position: relative;
+    left: 0.5rem; 
+    border-radius: 2rem;
+    -webkit-appearance: none;
+    background: #080707;
+}
+
+#SixthShifter::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 2rem;
+    background: #ffffff; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  #ValueOfAngle6{
+    position: relative;
+    left: 1rem;
+    bottom: 0.2rem;
+  }
+
+  #SaveButton{
+      height: 1.5rem;
+      width: 5rem;
+      position: relative;
+      left: 35%;
+      top: 00.5rem;
+      background-color: black;
+      color: white;
+  }
+
+  #RunButton{
+    height: 1.5rem;
+    width: 5rem;
+    position: relative;
+    left: 35%;
+    top: 00.5rem;
+    background-color: black;
+    color: white;
+}
